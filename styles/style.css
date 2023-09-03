@@ -3,6 +3,7 @@
     --blue-bg: rgba(13, 110, 253, 0.05);
     --secondary-black: #100F0F;
     --text-color: #403F3F;
+    --grey: rgba(16, 15, 15, 0.05);
 }
 
 * {
@@ -10,3 +11,7 @@
     margin: 0px;
     font-family: 'Poppins', sans-serif;
 }
+
+/* input#search :active{
+    border: 0px;
+} */
