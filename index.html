@@ -1,202 +1,155 @@
 <!DOCTYPE html>
 <html lang="en" data-theme="light">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Phone Hunter</title>
 
     <!-- css file link -->
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <!-- poppins font link -->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
-        rel="stylesheet">
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
 
     <!-- tailwind css and daisy ui -->
-    <link href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css" rel="stylesheet" type="text/css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@3.6.4/dist/full.css"
+      rel="stylesheet"
+      type="text/css"
+    />
     <script src="https://cdn.tailwindcss.com"></script>
 
     <!-- fontawesome cdn -->
-    <script src="https://kit.fontawesome.com/2782cb5fb7.js" crossorigin="anonymous"></script>
-</head>
+    <script
+      src="https://kit.fontawesome.com/2782cb5fb7.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
 
-<body>
+  <body>
     <header class="py-6 lg:pt-12 pb-48 sm:pb-96 bg-[--blue-bg]">
-        <nav class="max-w-screen-xl mx-auto flex justify-between items-center px-6 sm:px-10 xl:px-0">
-            <h3 class="text-2xl font-bold">Phone Hunter</h3>
-            <button class="bg-[--primary-blue] text-white py-4 px-10 rounded-lg text-xl font-semibold">Sign Up</button>
-        </nav>
+      <nav
+        class="max-w-screen-xl mx-auto flex justify-between items-center px-6 sm:px-10 xl:px-0"
+      >
+        <h3 class="text-2xl font-bold">Phone Hunter</h3>
+        <button
+          class="bg-[--primary-blue] text-white py-4 px-10 rounded-lg text-xl font-semibold"
+        >
+          Sign Up
+        </button>
+      </nav>
 
-        <!-- header done -->
+      <!-- header done -->
 
-        <section class="text-center">
-            <h1 class="pt-12 text-[--secondary-black] font-bold text-3xl sm:text-5xl lg:text-7xl">Apple Iphone 15 Pro
-                Ultra</h1>
-            <p class="text-lg text-[--text-color] w-5/6 sm:w-2/3 lg:w-1/2 py-9 mx-auto">
-                There are many variations of passages of Lorem Ipsum available, but the majority have suffered
-                alteration in some form, by injected humou.
-            </p>
-            <button class="bg-[--primary-blue] text-white py-4 px-10 rounded-lg text-xl font-semibold">Buy Now</button>
-        </section>
+      <section class="text-center">
+        <h1
+          class="pt-12 text-[--secondary-black] font-bold text-3xl sm:text-5xl lg:text-7xl"
+        >
+          Apple Iphone 15 Pro Ultra
+        </h1>
+        <p
+          class="text-lg text-[--text-color] w-5/6 sm:w-2/3 lg:w-1/2 py-9 mx-auto"
+        >
+          There are many variations of passages of Lorem Ipsum available, but
+          the majority have suffered alteration in some form, by injected humou.
+        </p>
+        <button
+          class="bg-[--primary-blue] text-white py-4 px-10 rounded-lg text-xl font-semibold"
+        >
+          Buy Now
+        </button>
+      </section>
     </header>
 
     <!-- banner done -->
 
-    <section class="max-w-screen-xl mx-auto px-10 xl:px-0 pb-6 lg:pb-28 pt-[38rem] sm:pt-96 text-center">
-        <img class="mx-auto -mt-[750px] mb-14" src="./images/phone-preview.png" alt="">
+    <section
+      class="max-w-screen-xl mx-auto px-10 xl:px-0 pb-6 lg:pb-28 pt-[38rem] sm:pt-96 text-center"
+    >
+      <img
+        class="mx-auto -mt-[750px] mb-14"
+        src="./images/phone-preview.png"
+        alt=""
+      />
 
-        <h3 class="sm:text-4xl text-3xl font-semibold text-[--secondary-black]">Search your phone</h3>
+      <h3 class="sm:text-4xl text-3xl font-semibold text-[--secondary-black]">
+        Search your phone
+      </h3>
 
-        <div class="flex w-full md:w-4/5 lg:w-3/5 mx-auto my-10 justify-center">
-            <div class="rounded-s-lg w-full flex justify-start items-center bg-[--blue-bg]">
-                <label class="cursor-pointer pl-6 pr-4" for="search"><i
-                        class="fa-solid fa-magnifying-glass"></i></label>
-                <input class="bg-transparent h-full w-full outline-none" type="text" name=""
-                    placeholder="Search here..." id="search">
-            </div>
+      <div class="flex w-full md:w-4/5 lg:w-3/5 mx-auto my-10 justify-center">
+        <div
+          class="rounded-s-lg w-full flex justify-start items-center bg-[--blue-bg]"
+        >
+          <label class="cursor-pointer pl-6 pr-4" for="search"
+            ><i class="fa-solid fa-magnifying-glass"></i
+          ></label>
 
-            <button class="bg-[--primary-blue] text-white py-4 px-10 rounded-e-lg text-xl font-semibold">Search</button>
+          <input
+            class="bg-transparent h-full w-full outline-none"
+            type="text"
+            placeholder="Search here..."
+            id="search"
+          />
         </div>
 
-        <div class="w-full grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6">
-            <div
-                class="flex border border-[--secondary-black] rounded-lg flex-col justify-center items-center gap-5 p-6">
-                <div class="flex p-8 justify-center bg-[--blue-bg] w-full h-full rounded-lg items-center">
-                    <img class="w-56" src="./images/demo-phone.png" alt="">
-                </div>
+        <button
+          class="bg-[--primary-blue] text-white py-4 px-10 rounded-e-lg text-xl font-semibold"
+        >
+          Search
+        </button>
+      </div>
 
-                <h4 class="text-2xl font-semibold text-[--secondary-black]">Iphone 13 Pro Max</h4>
+      <div
+        id="phone-container"
+        class="w-full grid lg:grid-cols-3 sm:grid-cols-2 grid-cols-1 gap-6"
+      ></div>
 
-                <p class="text-lg text-[--text-color]">There are many variations of passages of available, but the
-                    majority have suffered</p>
-
-                <h4 class="text-2xl font-semibold text-[--secondary-black]">$999</h4>
-
-                <button class="bg-[--primary-blue] text-white py-4 px-10 rounded-lg text-xl font-semibold">Show
-                    Details</button>
-            </div>
-
-            <div
-                class="flex border border-[--secondary-black] rounded-lg flex-col justify-center items-center gap-5 p-6">
-                <div class="flex p-8 justify-center bg-[--blue-bg] w-full h-full rounded-lg items-center">
-                    <img class="w-56" src="./images/demo-phone.png" alt="">
-                </div>
-
-                <h4 class="text-2xl font-semibold text-[--secondary-black]">Iphone 13 Pro Max</h4>
-
-                <p class="text-lg text-[--text-color]">There are many variations of passages of available, but the
-                    majority have suffered</p>
-
-                <h4 class="text-2xl font-semibold text-[--secondary-black]">$999</h4>
-
-                <button class="bg-[--primary-blue] text-white py-4 px-10 rounded-lg text-xl font-semibold">Show
-                    Details</button>
-            </div>
-
-            <div
-                class="flex border border-[--secondary-black] rounded-lg flex-col justify-center items-center gap-5 p-6">
-                <div class="flex p-8 justify-center bg-[--blue-bg] w-full h-full rounded-lg items-center">
-                    <img class="w-56" src="./images/demo-phone.png" alt="">
-                </div>
-
-                <h4 class="text-2xl font-semibold text-[--secondary-black]">Iphone 13 Pro Max</h4>
-
-                <p class="text-lg text-[--text-color]">There are many variations of passages of available, but the
-                    majority have suffered</p>
-
-                <h4 class="text-2xl font-semibold text-[--secondary-black]">$999</h4>
-
-                <button class="bg-[--primary-blue] text-white py-4 px-10 rounded-lg text-xl font-semibold">Show
-                    Details</button>
-            </div>
-
-            <div
-                class="flex border border-[--secondary-black] rounded-lg flex-col justify-center items-center gap-5 p-6">
-                <div class="flex p-8 justify-center bg-[--blue-bg] w-full h-full rounded-lg items-center">
-                    <img class="w-56" src="./images/demo-phone.png" alt="">
-                </div>
-
-                <h4 class="text-2xl font-semibold text-[--secondary-black]">Iphone 13 Pro Max</h4>
-
-                <p class="text-lg text-[--text-color]">There are many variations of passages of available, but the
-                    majority have suffered</p>
-
-                <h4 class="text-2xl font-semibold text-[--secondary-black]">$999</h4>
-
-                <button class="bg-[--primary-blue] text-white py-4 px-10 rounded-lg text-xl font-semibold">Show
-                    Details</button>
-            </div>
-
-            <div
-                class="flex border border-[--secondary-black] rounded-lg flex-col justify-center items-center gap-5 p-6">
-                <div class="flex p-8 justify-center bg-[--blue-bg] w-full h-full rounded-lg items-center">
-                    <img class="w-56" src="./images/demo-phone.png" alt="">
-                </div>
-
-                <h4 class="text-2xl font-semibold text-[--secondary-black]">Iphone 13 Pro Max</h4>
-
-                <p class="text-lg text-[--text-color]">There are many variations of passages of available, but the
-                    majority have suffered</p>
-
-                <h4 class="text-2xl font-semibold text-[--secondary-black]">$999</h4>
-
-                <button class="bg-[--primary-blue] text-white py-4 px-10 rounded-lg text-xl font-semibold">Show
-                    Details</button>
-            </div>
-
-            <div
-                class="flex border border-[--secondary-black] rounded-lg flex-col justify-center items-center gap-5 p-6">
-                <div class="flex p-8 justify-center bg-[--blue-bg] w-full h-full rounded-lg items-center">
-                    <img class="w-56" src="./images/demo-phone.png" alt="">
-                </div>
-
-                <h4 class="text-2xl font-semibold text-[--secondary-black]">Iphone 13 Pro Max</h4>
-
-                <p class="text-lg text-[--text-color]">There are many variations of passages of available, but the
-                    majority have suffered</p>
-
-                <h4 class="text-2xl font-semibold text-[--secondary-black]">$999</h4>
-
-                <button class="bg-[--primary-blue] text-white py-4 px-10 rounded-lg text-xl font-semibold">Show
-                    Details</button>
-            </div>
-        </div>
-
-        <button class="bg-[--primary-blue] text-white mt-12 py-4 px-10 rounded-lg text-xl font-semibold">Show
-            All</button>
+      <button
+        class="bg-[--primary-blue] text-white mt-12 py-4 px-10 rounded-lg text-xl font-semibold"
+      >
+        Show All
+      </button>
     </section>
 
-    <footer class=" px-10 xl:px-0 py-28 bg-[--blue-bg]">
-        <div class="max-w-screen-xl gap-4 mx-auto flex justify-between items-center flex-col md:flex-row">
-            <div class="">
-                <h1 class="text-4xl lg:text-5xl pb-4 font-bold">Phone Hunter</h1>
-                <p class="text-lg">You can definitely work.</p>
-            </div>
-
-            <div class="flex flex-1 flex-col md:flex-row justify-end gap-3 md:gap-4 items-center">
-                <div class="flex gap-3 md:gap-4 items-center">
-                    <i
-                    class="rounded-full bg-white p-4 hover:bg-[--primary-blue] hover:text-white transition-all cursor-pointer text-[--primary-blue] fa-brands fa-facebook"></i>
-                <i
-                    class="rounded-full bg-white p-4 hover:bg-[--primary-blue] hover:text-white transition-all cursor-pointer text-[--primary-blue] fa-brands fa-twitter"></i>
-                <i
-                    class="rounded-full bg-white p-4 hover:bg-[--primary-blue] hover:text-white transition-all cursor-pointer text-[--primary-blue] fa-brands fa-instagram"></i>
-                </div>
-
-                <button class="bg-[--primary-blue] text-white py-4 px-10 rounded-lg text-xl font-semibold">Join
-                    Premium</button>
-            </div>
+    <footer class="px-10 xl:px-0 py-28 bg-[--blue-bg]">
+      <div
+        class="max-w-screen-xl gap-4 mx-auto flex justify-between items-center flex-col md:flex-row"
+      >
+        <div class="">
+          <h1 class="text-4xl lg:text-5xl pb-4 font-bold">Phone Hunter</h1>
+          <p class="text-lg">You can definitely work.</p>
         </div>
+
+        <div
+          class="flex flex-1 flex-col md:flex-row justify-end gap-3 md:gap-4 items-center"
+        >
+          <div class="flex gap-3 md:gap-4 items-center">
+            <i
+              class="rounded-full bg-white p-4 hover:bg-[--primary-blue] hover:text-white transition-all cursor-pointer text-[--primary-blue] fa-brands fa-facebook"
+            ></i>
+            <i
+              class="rounded-full bg-white p-4 hover:bg-[--primary-blue] hover:text-white transition-all cursor-pointer text-[--primary-blue] fa-brands fa-twitter"
+            ></i>
+            <i
+              class="rounded-full bg-white p-4 hover:bg-[--primary-blue] hover:text-white transition-all cursor-pointer text-[--primary-blue] fa-brands fa-instagram"
+            ></i>
+          </div>
+
+          <button
+            class="bg-[--primary-blue] text-white py-4 px-10 rounded-lg text-xl font-semibold"
+          >
+            Join Premium
+          </button>
+        </div>
+      </div>
     </footer>
-
-
 
     <!-- js file link -->
     <script src="./js/app.js"></script>
-</body>
-
+  </body>
 </html>
